@@ -17,8 +17,9 @@ package main
 
 import (
 	"flag"
-	"github.com/erwinvaneyk/cert-completer/controllers"
 	"os"
+
+	"github.com/awsprof/cert-completer/controllers"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"

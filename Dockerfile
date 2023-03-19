@@ -1,6 +1,8 @@
 # Build the manager binary
 FROM golang:1.12.5 as builder
 
+RUN apt update && apt install ca-certificates libgnutls30 -y
+
 WORKDIR /workspace
 # Copy the Go Modules manifests
 COPY go.mod go.mod

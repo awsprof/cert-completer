@@ -1,4 +1,4 @@
-module github.com/erwinvaneyk/cert-completer
+module github.com/awsprof/cert-completer
 
 go 1.13
 
